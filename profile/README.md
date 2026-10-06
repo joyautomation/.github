@@ -1,23 +1,30 @@
 # Joy Automation
 
-Industrial automation is overdue for an upgrade. We build open-source SCADA and control systems that give you the power of modern software — without the vendor lock-in, surprise licensing fees, or decade-old UX.
+**Complete industrial automation: software, hardware, cloud, and support.**
 
-## What we're building
+Most plants run a stack of proprietary vendors, each charging a premium for their piece. We build applications that are reliable, maintainable, and transparent, and that you can improve a piece at a time.
 
-### Open Source
-- **[Synapse](https://github.com/joyautomation/synapse)** Synpase is a an MQTT Sparkplug B Client for use with the project Kraken stack
-- **[Tentacle PLC](https://github.com/joyautomation/tentacle)** — Tentacle is a distributed IIoT platform built on Deno with NATS as the message bus. It bridges industrial PLCs to MQTT/GraphQL for real-time monitoring and control.
-- **[Mantle](https://github.com/joyautomation/mantle)** Mantle is a MQTT Sparkplug B Data Aggregator & Historian. Connect edge and get all your data with minimal configuration.
+## Open source
 
-### SaaS
-- **[AnywhereSCADA](https://joyautomation.com)** — A cloud-native SCADA and historian platform. Run it anywhere. Own your data.
+We publish some of our own tools, so you can read what we would put in your plant before you buy anything.
 
-## Who we are
+- **[nautilus](https://github.com/joyautomation/nautilus)**: SCADA as software. A Go and SvelteKit toolkit for building control and supervisory systems the way software engineers already work: version control, tests, code review, CI/CD. Write control logic in IEC 61131-3 or in native Go, run it on a deterministic scan loop, and ship it like any other binary. Includes a pure-Go EtherNet/IP stack for Allen-Bradley Logix, Sparkplug B, and a VS Code extension. [Docs](https://nautilus.joyautomation.com)
+- **[Mantle](https://github.com/joyautomation/ignition-modules)**: a free Sparkplug B host application for Ignition 8.3 and later. Point it at your broker and tags create themselves from Sparkplug births, get historized by default, and stay yours to customize. Apache-2.0. [About Mantle](https://joyautomation.com/software/mantle)
 
-We're a system integrator that actually believes in open standards. We work with water utilities, municipalities, and industrial facilities to deploy modern automation stacks — and we publish our core tools as open source so the whole industry can benefit.
+## What we do
 
-## Get involved
+- **[Custom software](https://joyautomation.com/software)**: SCADA, historians, data pipelines, and cloud, built on open foundations you own.
+- **[Hardware](https://joyautomation.com/hardware)**: spec'd industrial server clusters, configured for your plant and quoted to order.
+- **[Services](https://joyautomation.com/services)**: assessment, support, and consulting, priced up front, with someone responsible when it breaks.
 
-- Browse our repos and star what interests you
-- Open an issue or PR — contributions welcome
-- Want to work with us? → [joyautomation.com](https://joyautomation.com)
+## How we build
+
+- **Open-source foundations.** Open tools you can audit, host, and keep. No proprietary runtime to renew, no per-tag license.
+- **Industrial domain depth.** We come from the plant floor, and we build industrial applications with the modern capabilities the industry has been missing.
+- **Small team, AI tooling.** We pair engineering experience with AI tooling to ship more, faster.
+
+## Get in touch
+
+- Start with an [assessment](https://joyautomation.com/services#assessment), or [partner with us](https://joyautomation.com/services)
+- Weekly videos on [YouTube](https://www.youtube.com/@joyautomation)
+- Issues and PRs welcome on any of our repos
