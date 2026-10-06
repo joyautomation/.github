@@ -9,7 +9,6 @@ Most plants run a stack of proprietary vendors, each charging a premium for thei
 We publish some of our own tools, so you can read what we would put in your plant before you buy anything.
 
 - **[nautilus](https://github.com/joyautomation/nautilus)**: SCADA as software. A Go and SvelteKit toolkit for building control and supervisory systems the way software engineers already work: version control, tests, code review, CI/CD. Write control logic in IEC 61131-3 or in native Go, run it on a deterministic scan loop, and ship it like any other binary. Includes a pure-Go EtherNet/IP stack for Allen-Bradley Logix, Sparkplug B, and a VS Code extension. [Docs](https://nautilus.joyautomation.com)
-- **[Mantle](https://github.com/joyautomation/ignition-modules)**: a free Sparkplug B host application for Ignition 8.3 and later. Point it at your broker and tags create themselves from Sparkplug births, get historized by default, and stay yours to customize. Apache-2.0. [About Mantle](https://joyautomation.com/software/mantle)
 
 ## What we do
 
